@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="ar">
 			<body
-				className={`${cairo.className} bg-[url('../assets/images/background.png')] bg-no-repeat bg-center`}>
+				className={`${cairo.className} md:bg-[url('../assets/images/background.png')] bg-no-repeat bg-center overflow-hidden`}>
 				<CircleVideo />
 				{children}
 			</body>
